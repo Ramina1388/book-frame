@@ -1,6 +1,5 @@
-'use client';
-
-import BookRecommendationFrame from '../components/BookRecommendationFrame';
+import React from 'react'
+import BookRecommendationFrame from '../components/BookRecommendationFrame'
 
 export default function Page() {
   return (
@@ -8,7 +7,8 @@ export default function Page() {
       <div className="absolute top-10 left-10 opacity-10 text-9xl font-bold rotate-12 text-[#9E2A2B] select-none pointer-events-none">
         📚
       </div>
+
       <BookRecommendationFrame />
     </main>
-  );
+  )
 }
