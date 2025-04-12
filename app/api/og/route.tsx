@@ -9,10 +9,10 @@ export async function GET() {
       <div
         style={{
           fontSize: 48,
-          background: 'white',
-          color: 'black',
-          height: '100%',
+          backgroundColor: '#ffffff',
+          color: '#000000',
           width: '100%',
+          height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
