@@ -47,7 +47,6 @@ const BookRecommendationFrame = () => {
   return (
     <div className="w-full max-w-xl p-8 rounded-2xl shadow-lg bg-gradient-to-br from-white via-[#f7f7f7] to-[#f0f0f0] border border-gray-200">
       <Typography
-        component="h1"
         variant="heading"
         level={2}
         className="mb-6 text-center text-3xl font-bold text-[#000000]"
