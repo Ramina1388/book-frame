@@ -25,6 +25,11 @@ export const metadata: Metadata = {
     "fc:frame:image": "https://book-frame.vercel.app/api/og",
     "fc:frame:post_url": "https://book-frame.vercel.app/api/frame",
     "fc:frame:button:1": "Get Recommendations",
+
+    "fc:miniapp": "vNext",
+    "fc:miniapp:name": "Book Recs",
+    "fc:miniapp:entrypoint": "https://book-frame.vercel.app",
+    "fc:miniapp:manifest": "https://book-frame.vercel.app/miniapp.json"
   },
 };
 
@@ -35,9 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>

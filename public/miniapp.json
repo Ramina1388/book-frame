@@ -1,0 +1,13 @@
+{
+    "name": "Book Recs",
+    "description": "Personalized book recommendations for every mood.",
+    "entrypoint": "https://book-frame.vercel.app",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
